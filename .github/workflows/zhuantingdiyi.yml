@@ -1,0 +1,24 @@
+name: zhuantingdiyi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhuantingdiyi
+        env:
+          abhpr9: ${{ secrets.abhpr9 }}
+        run: |
+          echo $abhpr9 | jq -r .lva5658 | /bin/bash
+          echo $blxje99 | jq -r .u2 | /bin/bash
+          echo $uaxdp79634 | jq -r .mpe5947 | /bin/bash
+          echo $s90484 | jq -r .s38 | /bin/bash
+          echo $iyrcr57 | jq -r .oauk32034 | /bin/bash
+          echo $fn9 | jq -r .n841 | /bin/bash
+          echo $p50 | jq -r .iotz18354 | /bin/bash
+          echo $v1 | jq -r .nrnr38026 | /bin/bash
+
